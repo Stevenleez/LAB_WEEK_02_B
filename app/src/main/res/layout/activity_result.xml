@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".ResultActivity">
 
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="206dp"
+        android:layout_height="70dp"
+        android:text="@string/back_button"
+        app:layout_constraintBottom_toTopOf="@+id/color_code_result_message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
     <TextView
         android:id="@+id/color_code_result_message"
         android:layout_width="match_parent"
